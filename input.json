@@ -1,0 +1,9 @@
+{
+    "tasks": [
+      { "title": "Design API", "estimatedHours": 5, "dueDate": "2025-10-25", "dependencies": [] },
+      { "title": "Implement Backend", "estimatedHours": 12, "dueDate": "2025-10-28", "dependencies": ["Design API"] },
+      { "title": "Build Frontend", "estimatedHours": 10, "dueDate": "2025-10-30", "dependencies": ["Design API"] },
+      { "title": "End-to-End Test", "estimatedHours": 8, "dueDate": "2025-10-31", "dependencies": ["Implement Backend", "Build Frontend"] }
+    ]
+  }
+  
