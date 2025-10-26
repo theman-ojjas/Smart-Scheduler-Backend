@@ -4,11 +4,7 @@ const cors = require("cors"); // <-- add this
 const scheduler = require("./scheduler");
 
 const app = express();
-app.use(cors({
-  origin: "https://smart-scheduler-frontend-4vfs.vercel.app",
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true,
-}));
+app.use(cors()); 
 
 app.use(bodyParser.json());
 
